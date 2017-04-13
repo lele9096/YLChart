@@ -9,12 +9,12 @@ YLChart  主要是用来绘制环状图表
         * 5 折线图，填充色渐变色填充<br>
         * 6 绘制间隔弧度的多色圆环<br>
 
+ ![](https://github.com/lelezpGZ@163.com/YLChart/raw/master/imageSource/demoImg_1.png)
 
 
 
 
 
-
-个人博客:http://blog.csdn.net/lele9096_bk "悬停显示"
+个人博客:http://blog.csdn.net/lele9096_bk 
 
 
