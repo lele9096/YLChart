@@ -21,12 +21,6 @@
 		A5047D831E9E31DE009C9BBD /* YLLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A5047D7D1E9E31DE009C9BBD /* YLLineChart.m */; };
 		A5047D841E9E31DE009C9BBD /* YLRotateCyclic.m in Sources */ = {isa = PBXBuildFile; fileRef = A5047D7F1E9E31DE009C9BBD /* YLRotateCyclic.m */; };
 		A5047D881E9E32B0009C9BBD /* YLChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5047D871E9E32B0009C9BBD /* YLChartController.m */; };
-		A5047D921E9F6313009C9BBD /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5047D8C1E9F6313009C9BBD /* demo1.png */; };
-		A5047D931E9F6313009C9BBD /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5047D8D1E9F6313009C9BBD /* demo2.png */; };
-		A5047D941E9F6313009C9BBD /* demo3.png in Resources */ = {isa = PBXBuildFile; fileRef = A5047D8E1E9F6313009C9BBD /* demo3.png */; };
-		A5047D951E9F6313009C9BBD /* demo4.png in Resources */ = {isa = PBXBuildFile; fileRef = A5047D8F1E9F6313009C9BBD /* demo4.png */; };
-		A5047D961E9F6313009C9BBD /* demo5.png in Resources */ = {isa = PBXBuildFile; fileRef = A5047D901E9F6313009C9BBD /* demo5.png */; };
-		A5047D971E9F6313009C9BBD /* demo6.png in Resources */ = {isa = PBXBuildFile; fileRef = A5047D911E9F6313009C9BBD /* demo6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,12 +70,6 @@
 		A5047D851E9E3222009C9BBD /* YLChartHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLChartHeader.h; sourceTree = "<group>"; };
 		A5047D861E9E32B0009C9BBD /* YLChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLChartController.h; sourceTree = "<group>"; };
 		A5047D871E9E32B0009C9BBD /* YLChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLChartController.m; sourceTree = "<group>"; };
-		A5047D8C1E9F6313009C9BBD /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
-		A5047D8D1E9F6313009C9BBD /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
-		A5047D8E1E9F6313009C9BBD /* demo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo3.png; sourceTree = "<group>"; };
-		A5047D8F1E9F6313009C9BBD /* demo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo4.png; sourceTree = "<group>"; };
-		A5047D901E9F6313009C9BBD /* demo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo5.png; sourceTree = "<group>"; };
-		A5047D911E9F6313009C9BBD /* demo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +120,6 @@
 		A5047D311E9E3136009C9BBD /* YLChartDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A5047D8B1E9F6313009C9BBD /* imageSource */,
 				A5047D751E9E31DE009C9BBD /* YLChart */,
 				A5047D351E9E3136009C9BBD /* AppDelegate.h */,
 				A5047D361E9E3136009C9BBD /* AppDelegate.m */,
@@ -191,19 +178,6 @@
 				A5047D851E9E3222009C9BBD /* YLChartHeader.h */,
 			);
 			path = YLChart;
-			sourceTree = "<group>";
-		};
-		A5047D8B1E9F6313009C9BBD /* imageSource */ = {
-			isa = PBXGroup;
-			children = (
-				A5047D8C1E9F6313009C9BBD /* demo1.png */,
-				A5047D8D1E9F6313009C9BBD /* demo2.png */,
-				A5047D8E1E9F6313009C9BBD /* demo3.png */,
-				A5047D8F1E9F6313009C9BBD /* demo4.png */,
-				A5047D901E9F6313009C9BBD /* demo5.png */,
-				A5047D911E9F6313009C9BBD /* demo6.png */,
-			);
-			path = imageSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,13 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5047D421E9E3136009C9BBD /* LaunchScreen.storyboard in Resources */,
-				A5047D951E9F6313009C9BBD /* demo4.png in Resources */,
 				A5047D3F1E9E3136009C9BBD /* Assets.xcassets in Resources */,
-				A5047D931E9F6313009C9BBD /* demo2.png in Resources */,
-				A5047D921E9F6313009C9BBD /* demo1.png in Resources */,
-				A5047D941E9F6313009C9BBD /* demo3.png in Resources */,
-				A5047D961E9F6313009C9BBD /* demo5.png in Resources */,
-				A5047D971E9F6313009C9BBD /* demo6.png in Resources */,
 				A5047D3D1E9E3136009C9BBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
