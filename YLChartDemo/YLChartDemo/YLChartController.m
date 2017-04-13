@@ -53,7 +53,6 @@
     YLCyclicChart* cyclicChart = [[YLCyclicChart alloc] initWithFrame:CGRectMake(0, 100, kScreenWidth, kScreenWidth) dataValue:dataValue colors:colors duration:3.0 startAngle:-90 radius:80 lineWidth:3.0 cyclicChartType:YLCyclicChartType_sequence];
     [self.view addSubview:cyclicChart];
 }
-
 -(void)drawCyclicWhile
 {
     NSArray* dataValue = @[@0.25,@0.25,@0.5];
